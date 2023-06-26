@@ -4,9 +4,9 @@ where continent is not null
 order by location,date
 
 
---select *
---from CovidVaccinations$
---order by location,date
+select *
+from CovidVaccinations$
+order by location,date
 
 select location,date,total_cases,new_cases,total_deaths,population
 from CovidDeaths$
